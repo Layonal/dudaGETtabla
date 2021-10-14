@@ -1,0 +1,56 @@
+
+.container{
+    max-width: 100vh;
+    
+}
+.container2
+{
+border-radius: 1%;
+margin: 2%;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+width: 100%;
+max-width: 60vh;
+}
+main{
+    display: flex;   
+    max-height: 85vh;
+    padding-top: 17vh;
+margin-bottom: 10%;
+}
+.container2 label{
+    margin-top: 1rem;
+    color: rgb(253, 253, 253);
+}
+.container2 h4{
+    margin-top: 1rem;
+    color: rgb(253, 253, 253);
+}
+.container3{
+
+padding: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.container3 .container{
+    border-radius: 10%;
+    padding: 10%;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.btn-success     {
+    color:black !important;
+    margin: 1%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    width: 16%;
+}
+.end {
+    display: flex;
+    justify-content: end;
+}
+.container > div{
+
+}

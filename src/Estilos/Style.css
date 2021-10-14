@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: url(../img/Fondo\ Ciudad.jpg); 
+  background-size: cover;
+  font-family: sans-serif;
+  background-repeat:repeat-y;
+  
+}
+
+.contenedor,footer {
+  position: relative;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+.header2{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.363);
+  }
+  
+header{
+  margin-top: -55px;
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  font-size: 14px;
+  
+}
+header >li{
+  list-style: none;
+}
+footer {
+  background-color:rgba(0, 0, 0, 0.363);
+  height: 10%;
+  text-align:center;
+  font-size:12px;
+  color:#FFF;
+  padding-left: 160px;
+  display:flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  
+ }
+
+
+p{
+  color: #fff;
+  text-align: center;
+  
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:flex;
+    
+}
+
+ul.social-icons {
+    display: flex;
+}
+
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.menuCSS3 ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menuCSS3 a {
+  display: block;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.363);
+  text-decoration: none;
+  color: #f6f7fa;
+
+}
+nav{
+  float: right;
+  margin-top: 0;
+  margin-right: 1%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.menuCSS3 a:hover {
+  background-color: #57ee32;
+}
+
+.menuCSS3 ul li ul {
+  display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+  display: block;
+}
+/* ***DESDE ACA SE EMPIEZA EL NUEVO CODIGO**** */
+/* COLORES PARA TRABAJAR: NEGRO-VERDE FLUORESCENTE-BLANCO:LETRA */
+
+.fill{
+  width: 22%;
+}
